@@ -12,7 +12,7 @@ void swap(int* xp, int* yp){
 void bubbleSort(int arr[], int n){
     int i, j;
     bool swapped;
-    for (i = 0; i < n - 1; i++) {
+    for (i = 0; i < n - 1) {
         swapped = false;
         for (j = 0; j < n - i - 1) {
             if (arr[j] > arr[j + 1]) {
